@@ -1,0 +1,235 @@
+body {
+    background-color: #00CCF5;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+    text-align: center;
+}
+/* header */
+.navbar{
+    background-color: #8381C0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* media query  */
+@media screen and (max-width:1100px) {
+	.navbar{
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+}
+/* color of a tag */
+.navbar a{
+	color: aliceblue;
+}
+/* tabs */
+.navbar-nav{
+    font-family:'Comfortaa', cursive;
+    font-size: 1rem;
+}
+/* navbar hover effect */
+.navbar-nav a:hover{
+	text-decoration:underline;
+	color:white;
+}
+.dropdown-menu{
+	background-color:#8381C0;
+}
+.dropdown-item:hover{
+	background-color:#8381C0;
+}
+/* brand-name styling */
+.navbar-brand span{
+	display: inline-block;
+	font-size: 1.7rem;
+	font-family:'Mochiy Pop P One', sans-serif;
+	font-weight: normal;
+}
+/* brand image styling */
+.navbar-brand img{
+	padding-bottom: 2%;
+}
+/* Navigation Bar */
+
+/* .navbar { */
+    /* padding: 0 0 2rem; */
+/* } */
+
+/* .logo-navbar { */
+    /* height: 3rem; */
+    /* position: relative; */
+    /* top: 1px; */
+    /* padding-right: 0.4rem; */
+/* } */
+
+/* .navbar-brand { */
+    /* font-family: "Ubuntu", sans-serif; */
+    /* font-size: 2.5rem; */
+    /* font-weight: bold; */
+/* } */
+
+/* .nav-item { */
+    /* padding: 0 0.2rem; */
+/* } */
+
+/* .nav-link { */
+    /* font-size: 1.2rem; */
+    /* font-family: "Montserrat"; */
+    /* font-weight: 300; */
+/* } */
+
+/* .navbar-container { */
+    /* padding-top: 1.5rem; */
+    /* padding-bottom: 1.5rem; */
+/* } */
+
+/* Details Container */
+
+.details-container {
+    padding: 2%;
+    background-color: #8381C0;
+    margin-bottom: 5%;
+    color: #FFDA0A;
+}
+
+.selling-price {
+    margin-bottom: 8px;
+}
+
+/* Select Container  */
+
+.select-container {
+    padding: 2%;
+    background-color: #8381C0;
+    margin-bottom: 5%;
+}
+
+.select-option {
+    padding-top: 1.5rem;
+}
+
+.confirm-button {
+    margin-top: 6rem;
+    margin-left: 7.65rem;
+}
+
+/* Book Selling Guide */
+
+.guide {
+    padding: 3%;
+    background-color: #8381C0;
+}
+
+.guide-container {
+    padding: 0;
+}
+
+.paragraph-style-1 {
+    color: #FFDA0A;
+}
+
+.sell-books-illustration {
+    width: 75%;
+}
+.illustration {
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+	display:flex;
+	flex-direction:row;
+	background-color:#212529;
+	justify-content:space-evenly;
+	margin-left:-0.5rem;
+	margin-top:2rem;
+	align-items:center;
+    padding-top: 2rem;
+}
+#foot-logo img{
+	max-width: 100%;
+	max-height: 100%;
+	width: 35vh;        
+}
+#foot-logo{
+	position:relative;
+	float:left;
+}
+footer{
+	color:white;
+}
+footer ul{
+	padding-left:0px;
+	list-style:none;
+	font-family:Letters for Learners;
+	font-size:1.25rem;
+	line-height:1.5;
+	
+}
+h2{
+	font-size:31px;
+	font-family:Letters for Learners;
+}
+#social-media{
+	display:flex;
+	flex-direction:column;
+	position:relative;
+	bottom:1.5rem;
+	line-height:0;
+	
+}
+#social-media li{
+	display:inline-block;
+	padding:0.25rem;
+	
+}
+#social-media a{
+	color:white;
+	text-decoration:none;
+}
+#email-box input{
+	font-size:20px;
+	font-family:cursive;
+	box-sizing:border-box;
+	padding:0.3rem 10px;
+	border-radius:4px;
+
+	
+}
+#b4{
+	font-size:24px;
+	padding:1.1rem 1rem;
+	border:solid;
+	border-color:white;
+	border-width:2;
+	border-radius:4px;
+	color:white;
+	background-color:#212529;
+	font-family:Letters for Learners;
+	position:relative;
+	top:-2px;
+}
+#b4:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+footer li:hover{
+	color:orange;
+	text-decoration:underline;
+}
+footer a:hover{
+	color:orange;
+	text-decoration:underline;
+}
