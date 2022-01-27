@@ -5,89 +5,47 @@ body {
 }
 
 .main-heading {
-    font-size: 3.5rem;
+	text-align: center;
+    font-size: 4rem;
     line-height: 1.5;
     font-weight: 800;
-    text-align: center;
-}
-/* header */
-.navbar{
-    background-color: #8381C0;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-
-/* media query  */
-@media screen and (max-width:1100px) {
-	.navbar{
-		padding-left: 0rem;
-		padding-right: 0rem;
-	}
-}
-/* color of a tag */
-.navbar a{
-	color: aliceblue;
-}
-/* tabs */
-.navbar-nav{
-    font-family:'Comfortaa', cursive;
-    font-size: 1rem;
-}
-/* navbar hover effect */
-.navbar-nav a:hover{
-	text-decoration:underline;
-	color:white;
-}
-.dropdown-menu{
-	background-color:#8381C0;
-}
-.dropdown-item:hover{
-	background-color:#8381C0;
-}
-/* brand-name styling */
-.navbar-brand span{
-	display: inline-block;
-	font-size: 1.7rem;
-	font-family:'Mochiy Pop P One', sans-serif;
-	font-weight: normal;
-}
-/* brand image styling */
-.navbar-brand img{
-	padding-bottom: 2%;
+    color: #373737;
+	margin-bottom: 2rem;
+	margin-top: -2rem;
 }
 /* Navigation Bar */
 
-/* .navbar { */
-    /* padding: 0 0 2rem; */
-/* } */
+.navbar {
+    padding: 0 0 2rem;
+}
 
-/* .logo-navbar { */
-    /* height: 3rem; */
-    /* position: relative; */
-    /* top: 1px; */
-    /* padding-right: 0.4rem; */
-/* } */
+.logo-navbar {
+    height: 3rem;
+    position: relative;
+    top: 1px;
+    padding-right: 0.4rem;
+}
 
-/* .navbar-brand { */
-    /* font-family: "Ubuntu", sans-serif; */
-    /* font-size: 2.5rem; */
-    /* font-weight: bold; */
-/* } */
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
 
-/* .nav-item { */
-    /* padding: 0 0.2rem; */
-/* } */
+.nav-item {
+    padding: 0 0.2rem;
+}
 
-/* .nav-link { */
-    /* font-size: 1.2rem; */
-    /* font-family: "Montserrat"; */
-    /* font-weight: 300; */
-/* } */
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
 
-/* .navbar-container { */
-    /* padding-top: 1.5rem; */
-    /* padding-bottom: 1.5rem; */
-/* } */
+.navbar-container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
 
 /* Details Container */
 
@@ -141,95 +99,55 @@ body {
     text-align: center;
 }
 
-/* Footer */
-
+/* footer */
 footer{
-	display:flex;
-	flex-direction:row;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 50%;
+	align-items: center;
+	justify-content: space-evenly;
+	color:whitesmoke;
 	background-color:#212529;
-	justify-content:space-evenly;
-	margin-left:-0.5rem;
-	margin-top:2rem;
-	align-items:center;
-    padding-top: 2rem;
+	font-family:'Comfortaa', cursive;
 }
-#foot-logo img{
-	max-width: 100%;
-	max-height: 100%;
-	width: 35vh;        
+.foot-logo{
+	width: 26rem;
+	margin: 1rem;
 }
-#foot-logo{
-	position:relative;
-	float:left;
+.foot-logo img{
+	width:80%
 }
-footer{
-	color:white;
+
+footer a{
+	color: whitesmoke;
+	text-decoration: none;
 }
 footer ul{
-	padding-left:0px;
 	list-style:none;
-	font-family:Letters for Learners;
-	font-size:1.25rem;
-	line-height:1.5;
-	
+	padding-left: 0%;
 }
-h2{
-	font-size:31px;
-	font-family:Letters for Learners;
+.useful-links,.Support{
+	margin-top: -9%;
 }
+
 #social-media{
 	display:flex;
 	flex-direction:column;
-	position:relative;
-	bottom:1.5rem;
-	line-height:0;
-	
+	flex-wrap: wrap;
+	margin-bottom: -1.1%;
+	justify-content: space-around;
 }
 #social-media li{
-	display:inline-block;
-	padding:0.25rem;
-	
+	display: inline-block;
+	padding: 0.3rem;
+	font-size: 1.8rem;
 }
-#social-media a{
-	color:white;
-	text-decoration:none;
-}
-#email-box input{
-	font-size:20px;
-	font-family:cursive;
-	box-sizing:border-box;
-	padding:0.3rem 10px;
-	border-radius:4px;
-
-	
-}
-#b4{
-	font-size:24px;
-	padding:1.1rem 1rem;
-	border:solid;
-	border-color:white;
-	border-width:2;
-	border-radius:4px;
-	color:white;
-	background-color:#212529;
-	font-family:Letters for Learners;
-	position:relative;
-	top:-2px;
-}
-#b4:hover{
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-footer li:hover{
-	color:orange;
-	text-decoration:underline;
-}
-footer a:hover{
-	color:orange;
-	text-decoration:underline;
+@media screen and (max-width:1240px) {
+	.useful-links{
+		margin-top: 0%;
+	}
+	.Support{
+		margin-top: 0%;
+	}
 }

@@ -34,53 +34,43 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400&family=Ubuntu:wght@400;500;700&display=swap"
         rel="stylesheet">
-			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Poppins:ital,wght@0,100;0,400;0,900;1,200&display=swap" rel="stylesheet">
-	<!-- Mochiy Pop P One font link -->
-    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+	<!-- Comfortaa Cursive font link -->
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chakra+Petch:wght@300;400&family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Favicon  -->
-		<link rel="shortcut icon" href="D:\1st year Program\HTML Programs\Images\Project images\book.ico">
+    <link rel="shortcut icon" href="Images\Project images\book.ico">
+
 </head>
 
 <body>
 
     <!-- Nav Bar -->
 
-	<!-- navbar link -->
-	<nav class="navbar navbar-expand-lg">
-		<div class="container-fluid">
-		  <a class="navbar-brand" href="#">
-			  <!-- brand logo -->
-			  <img src="D:\1st year Program\HTML Programs\Images\Project images\book.ico" height="50" alt="">
-			  <!-- brand name -->
-			  <span>BooksVerse</span>
-			</a>
-			<!-- hamburger-button -->
-		  <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<!-- list itemss -->
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">Home</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Buy</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link ">Sell</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link ">Blog</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link ">About Us</a>
-			  </li>
-			</ul>
-        </div>
-    </nav>
+    <div class="container navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="index.html"><img class="logo-navbar " src="images/logo-without-text.png" alt=""></a>
+            <a class="navbar-brand logo-text" href="index.html" style="color: whitesmoke;" >BooksVerse</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: whitesmoke;" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bloog.htm" style="color: whitesmoke;" >Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sign-up.html" style="color: whitesmoke;" >SignUp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html" style="color: whitesmoke;" >About Us</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <div class="container main-div" id="pic div">
         <h1 class="main-heading">Sell Books</h1>
@@ -181,7 +171,7 @@
                     </ul>
                 </div>
                 <div class="col-md-5 illustration">
-                    <img class="sell-books-illustration ms-auto" src="D:\1st year Program\HTML Programs\Images\Project images\sell-books-illustration.png" alt="">
+                    <img class="sell-books-illustration ms-auto" src="images/sell-books-illustration.png" alt="">
                 </div>
             </div>
             <div class="guide-text">
@@ -195,54 +185,52 @@
             </div>
         </div>
     </div>
-
+<br><br>
     <!-- Footer -->
 
-    <footer>
-        <div id="foot-logo">
-				<img src="D:\1st year Program\HTML Programs\Images\Project images\Books_Verse-removebg-preview_1.png">
-        </div>
-        <div id="useful-links">
-            <h2>Useful Links</h2>
-            <ul>
-                <li>Refer a Friend</li>
-                <li>Offers and Rewards</li>
-                <li>Central Relay Library</li>
-                <li>About Us</li>
-                <li>Our Team</li>
-                <li>Blogs</li>
-            </ul>
-        </div>
-        <div id="Support">
-            <h2>Support</h2>
-            <ul>
-                <li>Contact Us</li>
-                <li>Return Policy</li>
-                <li>Privacy Policy</li>
-                <li>Payment Methods</li>
-                <li>FAQ</li>
-                <br>
-            </ul>
-        </div>
-        <div id="social-media">
-            <div id="icons">
-                <h2>Follow us</h2>
-                <ul>
-                    <li><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-twitter-square"></i></li>
-                    <li><i class="fab fa-reddit"></i></li>
-                </ul>
-            </div>
-            <div id="email-box">
-                <h2>Subscribe to our NewsLetter</h2>
-                <input type="email-box" placeholder="john@abc.com">
-                <button id="b4">
-                    Subscribe
-                </button>
-            </div>
-        </div>
-    </footer>
+	<footer>
+		<div class="foot-logo">
+			<img src="Images\Project images\BooksVerse logo.png">
+		</div>
+		<div class="useful-links">
+			<h2>Useful Links</h2>
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="about-us.html"><li>About Us</li></a>
+				<a href="sell-books.html"><li>Sell</li></a>
+				<a href="bloog.htm"><li>Blogs</li></a>
+			</ul>
+		</div>
+		<div class="Support">
+			<h2>Support</h2>
+			<ul>
+				<a href="#"><li>Contact Us</li></a>
+				<a href="#"><li>Return Policy</li></a>
+				<a href="#"><li>Payment Methods</li></a>
+				<a href="#"><li>FAQ</li></a>
+			</ul>				
+		</div>
+		<div id="social-media">
+			<div id="icons">
+				<h2>Follow us</h2>
+				<ul>
+					<a href="#"><li><i class="fab fa-linkedin"></i></li></a>
+					<a href="#"><li><i class="fab fa-facebook"></i></li></a>
+					<a href="#"><li><i class="fab fa-twitter-square"></i></li></a>
+					<a href="#"><li><i class="fab fa-reddit"></i></li></a>
+				</ul>
+			</div>
+			<div id="email-box">
+				<h2>Subscribe to our NewsLetter</h2>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="abc@gmail.com">
+					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+				  </div>
+				  <button type="button" class="btn btn-outline-light">Subscribe</button>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
