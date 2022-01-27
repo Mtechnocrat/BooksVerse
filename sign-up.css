@@ -109,7 +109,10 @@ h1,h2,h3,h4,h5,h6 {
 .feature-box {
     padding: 5%;
 }
-
+.xyz a{
+    text-decoration: none;
+    color: unset;
+}
 
 /* Footer Section */
 
